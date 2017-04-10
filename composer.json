@@ -18,7 +18,7 @@
 		"timezoneone/silverstripe-translatable": " ~2.2"
 	},
 	"repositories": {
-		"timezoneone/silverstripe-translatable":{
+		"timezoneone/ranslatable":{
 			"type": "git",
 			"url": "git@github.com:timezoneone/silverstripe-translatable.git",
 			"private": "true"
