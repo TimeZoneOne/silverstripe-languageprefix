@@ -15,7 +15,14 @@
 	{
 		"silverstripe/framework": "~3.1",
 		"silverstripe/cms": "~3.1",
-		"silverstripe/translatable": " ~2.2"
+		"timezoneone/silverstripe-translatable": " ~2.2"
+	},
+	"repositories": {
+		"timezoneone/silverstripe-translatable":{
+			"type": "git",
+			"url": "git@github.com:timezoneone/silverstripe-translatable.git",
+			"private": "true"
+		}
 	},
 	"support": 
 	{
