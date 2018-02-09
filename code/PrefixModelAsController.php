@@ -189,6 +189,7 @@ class PrefixModelAsController extends ModelAsController
     {
 
         if ($response = ErrorPage::response_for(404)) {
+            $response->setStatusCode(404);
             return $response;
         }
         // if an errorpage is not defined for the current language
@@ -197,6 +198,7 @@ class PrefixModelAsController extends ModelAsController
         Translatable::set_current_locale($locale);
 
         if ($response = ErrorPage::response_for(404)) {
+            $response->setStatusCode(404);
             return $response;
         }
         //return $this->httpError(404, 'The requested page could not be found!!');
